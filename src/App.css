@@ -4,6 +4,8 @@
 
 #root {
   font-family: "Manrope", sans-serif;
+  background-color: white;
+  color: #101727;
 }
 
 @keyframes blink {

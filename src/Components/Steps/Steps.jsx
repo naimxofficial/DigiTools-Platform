@@ -2,7 +2,7 @@ import React from 'react';
 
 const Steps = () => {
     return (
-        <section className='w-11/12 mx-auto my-10'>
+        <section className='w-11/12 mx-auto py-10 bg-[#f9fafc]'>
 
             <div className='text-center md:space-y-4 space-y-1'>
                 <h2 className='font-extrabold  text-3xl md:text-4xl'>Get Started in 3 Steps</h2>
