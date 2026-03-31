@@ -1,7 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
 @plugin "daisyui";
 
-#root{
-    font-family: "Manrope", sans-serif;
+#root {
+  font-family: "Manrope", sans-serif;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.98);
+  }
+}
+.blink-hard {
+  animation: blink 3s ease-in-out infinite;
 }
