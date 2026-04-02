@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <section className='w-11/12 mx-auto py-10 '>
+        <section id='Pricing' className='w-11/12 mx-auto py-10 '>
 
             <div className='text-center md:space-y-4 space-y-1'>
                 <h2 className='font-extrabold  text-3xl md:text-4xl'>Simple, Transparent Pricing</h2>
@@ -11,7 +11,7 @@ const Pricing = () => {
 
             <div className='grid md:grid-cols-3 gap-7 my-10 '>
                 {/* card 1 */}
-                <div className=' py-6 px-10 md:px-20 rounded-2xl space-y-6  bg-[#f9fafc] '>
+                <div className='hover:-translate-y-3 transition-all py-6 px-10 md:px-20 flex flex-col rounded-2xl space-y-6  bg-[#f9fafc] '>
 
                     <div className='space-y-2 '>
                         <h3 className='font-bold text-xl md:2xl'>Starter</h3>
@@ -43,12 +43,12 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <button className=' w-full mt-12 btn rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-none border-none'>Get Started Free</button>
+                    <button className=' w-full mt-auto btn rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-none border-none'>Get Started Free</button>
 
                 </div>
                 {/* card-2 */}
-                <div className=' py-6 md:px-20 px-10 rounded-2xl space-y-6  bg-linear-to-r from-[#4f39f6] to-[#9514fa]  relative'>
-                    <p className='text-[#bb4d00] bg-[#fef3c6] px-3 py-1.5 rounded-full font-medium absolute -top-3 left-35
+                <div className='hover:-translate-y-3 transition-all py-6 md:px-20 px-8 rounded-2xl space-y-6  bg-linear-to-r from-[#4f39f6] to-[#9514fa]  flex flex-col'>
+                    <p className='text-[#bb4d00] border-none badge bg-[#fef3c6] px-3 py-1.5 rounded-full font-medium mx-auto
                     8'>Most Popular</p>
                     <div className='space-y-2'>
                         <h3 className='font-bold text-xl md:2xl text-white '>Pro</h3>
@@ -90,11 +90,11 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <button className='px-4 py-3 w-full btn rounded-full bg-white shadow-none border-none text-[#9514fa]'>Start Pro Trial</button>
+                    <button className=' mt-auto px-4 py-3 w-full btn rounded-full bg-white shadow-none border-none text-[#9514fa]'>Start Pro Trial</button>
 
                 </div>
                 {/* card 3 */}
-                <div className=' py-6 px-10 md:px-20 rounded-2xl space-y-6  bg-[#f9fafc]'>
+                <div className='flex flex-col hover:-translate-y-3 transition-all py-6 px-10 md:px-20 rounded-2xl space-y-6  bg-[#f9fafc]'>
                     <div className='space-y-2'>
                         <h3 className='font-bold text-xl md:2xl'>Enterprise</h3>
                         <p className='text-[#627382] '>For teams and business</p>
@@ -135,7 +135,7 @@ const Pricing = () => {
                         </div>
                     </div>
 
-                    <button className=' w-full btn rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-none border-none'>Contact Sales</button>
+                    <button className=' w-full btn mt-auto rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-none border-none'>Contact Sales</button>
                     
 
                 </div>

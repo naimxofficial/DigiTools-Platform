@@ -10,9 +10,9 @@ const Hero = () => {
                     Digital Workflow</h1>
                 <p className='text-[#627382] text-xs  md:text-lg wrap'>Access premium AI tools, design assets, templates,<br /> and productivity software—all in one place.<br /> Start creating faster today.Explore Products
                 </p>
-                <div className='space-x-2'>
-                    <button className='btn rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-none border-none'>Explore Products</button>
-                    <button className='btn btn-outline rounded-full border-[#9514fa] text-[#9514fa]'><CiPlay1 /> Watch Demo</button>
+                <div className='space-x-2 mt-4'>
+                    <a href='#Products' className='hover:scale-105 transition-all btn rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] shadow-none border-none'>Explore Products</a>
+                    <button className='hover:scale-105 transition-all btn btn-outline rounded-full border-[#9514fa] text-[#9514fa]'><CiPlay1 /> Watch Demo</button>
                 </div>
             </div>
             <div><img src={"banner.png"} alt="" /></div>

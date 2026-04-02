@@ -1,0 +1,141 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Starter Kit",
+    "description": "Everything you need to launch your first project — templates, tools, and basic support included.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "new",
+    "features": [
+      "5 project templates",
+      "Community support",
+      "Basic analytics",
+      "1 GB storage"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": "prod_002",
+    "name": "Pro Monthly",
+    "description": "Unlock advanced features with a flexible monthly plan. Cancel anytime with no strings attached.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "Priority support",
+      "Advanced analytics",
+      "50 GB storage",
+      "Team collaboration"
+    ],
+    "icon": "⚡"
+  },
+  {
+    "id": "prod_003",
+    "name": "Pro Annual",
+    "description": "Get everything in Pro Monthly at a heavily discounted rate — billed once per year.",
+    "price": 249,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "100+ templates",
+      "Priority support",
+      "Advanced analytics",
+      "50 GB storage",
+      "Team collaboration",
+      "2 months free"
+    ],
+    "icon": "🏆"
+  },
+  {
+    "id": "prod_004",
+    "name": "Business Suite",
+    "description": "Built for growing teams. Centralized billing, SSO, audit logs, and dedicated account management.",
+    "price": 99,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": [
+      "Unlimited templates",
+      "Dedicated support",
+      "Custom integrations",
+      "500 GB storage",
+      "SSO & SAML",
+      "Audit logs",
+      "SLA guarantee"
+    ],
+    "icon": "🏢"
+  },
+  {
+    "id": "prod_005",
+    "name": "Resume Builder",
+    "description": "One-time purchase to craft ATS-optimized resumes with professionally designed layouts.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": "prod_006",
+    "name": "Enterprise Plan",
+    "description": "Custom pricing, dedicated infrastructure, and white-glove onboarding for large organizations.",
+    "price": 499,
+    "period": "monthly",
+    "tag": "Featured",
+    "tagType": "featured",
+    "features": [
+      "Unlimited everything",
+      "24/7 premium support",
+      "Custom SLAs",
+      "On-premise option",
+      "Advanced security",
+      "Custom AI training"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": "prod_007",
+    "name": "Lifetime Access",
+    "description": "Pay once, use forever. Full Pro-level access with all future updates included at no extra charge.",
+    "price": 299,
+    "period": "one-time",
+    "tag": "Limited",
+    "tagType": "limited",
+    "features": [
+      "All Pro features",
+      "Lifetime updates",
+      "No recurring fees",
+      "Early access to beta features",
+      "Exclusive Discord community"
+    ],
+    "icon": "♾️"
+  },
+  {
+    "id": "prod_008",
+    "name": "Team Annual",
+    "description": "Yearly billing for your entire team with consolidated invoicing and role-based access control.",
+    "price": 799,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "Up to 25 seats",
+      "Centralized billing",
+      "Role-based access",
+      "Admin dashboard",
+      "Priority onboarding",
+      "API access"
+    ],
+    "icon": "👥"
+  }
+]

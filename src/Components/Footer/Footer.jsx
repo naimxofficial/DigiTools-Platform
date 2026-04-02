@@ -11,8 +11,8 @@ const Footer = () => {
                 <div>
                     <h3 className='font-semibold mb-4'>Products</h3>
                     <ul className='space-y-4 text-xs'>
-                        <li><a href="">Features</a></li>
-                        <li><a href="">Pricing</a></li>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Pricing">Pricing</a></li>
                         <li><a href="">Templates</a></li>
                         <li><a href="">Integrations</a></li>
                     </ul>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <div>
                     <h3 className='font-semibold mb-4'>Company</h3>
                     <ul className='space-y-4 text-xs'>
-                        <li><a href="">About</a></li>
+                        <li><a href="#hero">About</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Careers</a></li>
                         <li><a href="">Press</a></li>
@@ -38,9 +38,9 @@ const Footer = () => {
                 <div>
                     <h3 className='font-semibold mb-4'>Social Links</h3>
                     <ul className='flex items-center gap-3 not-md:justify-center'>
-                        <li><a href=""><img src={"instagram.svg"} alt="" /></a></li>
-                        <li><a href=""><img src={"facebook.svg"} alt="" /></a></li>
-                        <li><a href=""><img src={"twitter.svg"} alt="" /></a></li>
+                        <li><a href="https://www.instagram.com/"><img src={"instagram.svg"} alt="" /></a></li>
+                        <li><a href="https://www.facebook.com/"><img src={"facebook.svg"} alt="" /></a></li>
+                        <li><a href="https://x.com/"><img src={"twitter.svg"} alt="" /></a></li>
                     </ul>
                 </div>
             </section>

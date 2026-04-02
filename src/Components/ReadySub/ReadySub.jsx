@@ -9,8 +9,8 @@ const ReadySub = () => {
                     Start your free trial today.</p>
             </div>
             <div>
-                <button className='btn text-[#9514fa] bg-white rounded-full font-semibold border-none shadow-none p-4 mr-4'>Explore Products</button>
-                <button className='btn btn-outline rounded-full font-semibold  shadow-none py-4 px-9'>View Pricing</button>
+                <a href='#Products' className='btn text-[#9514fa] bg-white rounded-full font-semibold border-none shadow-none p-4 mr-4'>Explore Products</a>
+                <a href='#Pricing' className='btn btn-outline rounded-full font-semibold  shadow-none py-4 px-9'>View Pricing</a>
                 <p className='mt-4 text-xs md:text-[16px]'>14-day free trial • No credit card required • Cancel anytime</p>
             </div>
         </section>
